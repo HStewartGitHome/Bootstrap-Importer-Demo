@@ -1,0 +1,306 @@
+HTML (other)   Project Path = C:\SRC\VSBootstrapImporter\Demo\Work\HTML\AppleHtml\
+Project Path                = C:\SRC\VSBootstrapImporter\Demo\Work\BootstrapDemo\BlazorServer\
+
+Preview for Blazor Page Apple in file C:\SRC\VSBootstrapImporter\Demo\Work\BootstrapDemo\BlazorServer\pages\Apple.razor
+
+@page "/Apple"
+
+    <nav class="navbar navbar-dark navbar-expand-md fixed-top bg-dark">
+        <div class="container"><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="nav navbar-nav flex-grow-1 justify-content-between">
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="#"><i class="fa fa-apple apple-logo"></i></a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="#">Mac</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="#">iPad</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="#">iPhone</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="#">Watch</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="#">TV</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="#">Music</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="#">Support</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="#"><i class="fa fa-search"></i></a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="#"><i class="fa fa-shopping-bag"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="product iphone-x">
+        <h1>iPhone X</h1>
+        <h2>Say hello to the future.</h2>
+        <div class="links"><a class="learn-more" href="#">Learn more&nbsp;<i class="fa fa-angle-right"></i></a><a href="#">Buy&nbsp;<i class="fa fa-angle-right"></i></a></div><img class="img-fluid" src="Apple/assets\img\iphone_x_largetall.jpg"></section>
+    <section class="product ipad">
+        <h1>iPad</h1>
+        <h2>Like a computer. Unlike any computer.</h2>
+        <div class="links"><a class="learn-more" href="#">Learn more&nbsp;<i class="fa fa-angle-right"></i></a><a href="#">Buy&nbsp;<i class="fa fa-angle-right"></i></a></div><img class="img-fluid" src="Apple/assets\img\ipad_largetall.jpg"></section>
+    <section class="product macbook-pro dark">
+        <h1>MacBook Pro</h1>
+        <h2>More power. More performance. More pro.</h2>
+        <div class="links small-link-margin"><a class="learn-more" href="#">Learn more&nbsp;<i class="fa fa-angle-right"></i></a><a href="#">Buy&nbsp;<i class="fa fa-angle-right"></i></a></div><img class="img-fluid" src="Apple/assets\img\macbook_pro_performance_largetall.png"></section>
+    <div class="row no-gutters products-grid">
+        <div class="col-md-6">
+            <div class="product-small" style="background-image:url(&quot;Apple/assets/img/shop_for_college_large.jpg&quot;);background-position:center;background-size:cover;background-repeat:no-repeat;">
+                <h3>Turn up summer.</h3>
+                <h4>Buy a Mac or iPad Pro for college.<br>Get Beats on us.</h4>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="product-small behind-the-mac dark" style="background-image:url(&quot;Apple/assets/img/behind_the_mac_boniface_large.jpg&quot;);background-position:center;background-size:cover;background-repeat:no-repeat;">
+                <h3>Behind the Mac</h3>
+                <div class="links small-link-margin"><a class="learn-more" href="#">Watch the film &nbsp;<i class="fa fa-play-circle-o"></i></a><a href="#">Explore Mac&nbsp;<i class="fa fa-angle-right"></i></a></div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="product-small iphone-8" style="background-position:center;background-size:cover;background-repeat:no-repeat;">
+                <h3>iPhone 8</h3>
+                <h4>A new generation of iPhone.</h4>
+                <div class="links small-link-margin"><a class="learn-more" href="#">Learn more &nbsp;<i class="fa fa-angle-right"></i></a><a href="#">Buy&nbsp;<i class="fa fa-angle-right"></i></a></div><img src="Apple/assets\img\iphone_8_large.jpg"></div>
+        </div>
+        <div class="col-md-6">
+            <div class="product-small dark" style="background-position:center;background-size:cover;background-repeat:no-repeat;background-image:url(&quot;Apple/assets/img/how_to_shoot_large.jpg&quot;);">
+                <h3>How to shoot on iPhone</h3>
+                <h4>Make the beautiful game even more beautiful.</h4>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="product-small air-pods" style="background-position:center;background-size:cover;background-repeat:no-repeat;">
+                <h3>AirPods</h3>
+                <h4>Wireless. Effortless. Magical.</h4>
+                <div class="links small-link-margin"><a class="learn-more" href="#">Learn more &nbsp;<i class="fa fa-angle-right"></i></a><a href="#">Buy&nbsp;<i class="fa fa-angle-right"></i></a></div><img class="img-fluid" src="Apple/assets\img\airpods_large.jpg"></div>
+        </div>
+        <div class="col-md-6">
+            <div class="product-small apple-watch" style="background-position:center;background-size:cover;background-repeat:no-repeat;">
+                <h3><i class="fa fa-apple"></i>&nbsp;WATCH</h3>
+                <h5>SERIES 5</h5>
+                <h4>The freedom of cellular.</h4>
+                <div class="links small-link-margin"><a class="learn-more" href="#">Learn more &nbsp;<i class="fa fa-angle-right"></i></a><a href="#">Buy&nbsp;<i class="fa fa-angle-right"></i></a></div><img class="img-fluid" src="Apple/assets\img\watch_series_3_large.jpg"></div>
+        </div>
+    </div>
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-md-3">
+                    <h4>Shop and Learn</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Mac</a></li>
+                        <li><a href="#">iPad</a></li>
+                        <li><a href="#">iPhone</a></li>
+                        <li><a href="#">Watch</a></li>
+                        <li><a href="#">TV</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-3">
+                    <h4>Apple Store</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Find a Store</a></li>
+                        <li><a href="#">Genius Bar</a></li>
+                        <li><a href="#">Today at Apple</a></li>
+                        <li><a href="#">Apple Camp</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-3">
+                    <h4>For Education</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Apple and Education</a></li>
+                        <li><a href="#">Shop for College</a></li>
+                    </ul>
+                    <h4>For Business</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Apple and Business</a></li>
+                        <li><a href="#">Shop for Business</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-3">
+                    <h4>Account</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Manage Your Apple ID</a></li>
+                        <li><a href="#">Apple Store Account</a></li>
+                        <li><a href="#">iCloud.com</a></li>
+                    </ul>
+                    <h4>Apple Values</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Accessibility</a></li>
+                        <li><a href="#">Education</a></li>
+                    </ul>
+                </div>
+            </div>
+            <p>More ways to shop: Visit an&nbsp;<a href="https://www.apple.com/retail/">Apple Store</a>,&nbsp;call 1-800-MY-APPLE, or&nbsp;<a href="https://locate.apple.com/">find a reseller</a>.</p>
+            <hr>
+            <div class="footer-legal">
+                <div class="float-md-right region"><a href="#"><img src="Apple/assets\img\united-states-flag.png">United States</a></div>
+                <div class="d-inline-block copyright">
+                    <p class="d-inline-block">Copyright © 2018. All rights reserved.<br></p>
+                </div>
+                <div class="d-inline-block legal-links">
+                    <div class="d-inline-block item">
+                        <h5>Privacy Policy</h5>
+                    </div>
+                    <div class="d-inline-block item">
+                        <h5>Terms of Use</h5>
+                    </div>
+                    <div class="d-inline-block item">
+                        <h5>Legal</h5>
+                    </div>
+                    <div class="d-inline-block item">
+                        <h5>License</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+@code {
+
+}
+
+Preview for changes in C:\SRC\VSBootstrapImporter\Demo\Work\BootstrapDemo\BlazorServer\Pages\_Host.cshtml
+
+    @if (Request.Path.Value == "/Apple")
+    {
+        <link rel="stylesheet" href="Apple/assets/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="Apple/assets/fonts/font-awesome.min.css">
+        <link rel="stylesheet" href="Apple/assets/css/styles.min.css">
+    }
+
+
+            <component type="typeof(App)" render-mode="Static" />
+
+Preview for Host Changes in C:\SRC\VSBootstrapImporter\Demo\Work\BootstrapDemo\BlazorServer\Pages\_Host.cshtml
+
+@page "/"
+@namespace BlazorServer.Pages
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BlazorServer</title>
+    <base href="~/" />
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" />
+    <link href="css/site.css" rel="stylesheet" />
+    @if (Request.Path.Value == "/Tesla")
+    {
+        <link rel="stylesheet" href="Tesla/assets/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600">
+        <link rel="stylesheet" href="Tesla/assets/fonts/ionicons.min.css">
+        <link rel="stylesheet" href="Tesla/assets/css/styles.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
+    }
+    @if (Request.Path.Value == "/Apple")
+    {
+        <link rel="stylesheet" href="Apple/assets/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="Apple/assets/fonts/font-awesome.min.css">
+        <link rel="stylesheet" href="Apple/assets/css/styles.min.css">
+    }
+</head>
+<body>
+    <app>
+        <component type="typeof(App)" render-mode="Static" />
+    </app>
+
+    <div id="blazor-error-ui">
+        <environment include="Staging,Production">
+            An error has occurred. This application may no longer respond until reloaded.
+        </environment>
+        <environment include="Development">
+            An unhandled exception has occurred. See browser dev tools for details.
+        </environment>
+        <a href="" class="reload">Reload</a>
+        <a class="dismiss">🗙</a>
+    </div>
+
+    <script src="_framework/blazor.server.js"></script>
+    @if(Request.Path.Value == "/Tesla")
+    {
+            <script src="Tesla/assets/js/jquery.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
+            <script src="Tesla/assets/js/script.min.js"></script>
+    }
+    @if(Request.Path.Value == "/Apple")
+    {
+            <script src="Apple/assets/js/jquery.min.js"></script>
+    }
+</body>
+</html>
+
+Preview for NavMenu.Razor Changes inC:\SRC\VSBootstrapImporter\Demo\Work\BootstrapDemo\BlazorServer\Shared\NavMenu.Razor
+
+<div class="top-row pl-4 navbar navbar-dark">
+    <a class="navbar-brand" href="">BlazorServer</a>
+    <button class="navbar-toggler" @onclick="ToggleNavMenu">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+</div>
+
+<div class="@NavMenuCssClass" @onclick="ToggleNavMenu">
+    <ul class="nav flex-column">
+        <li class="nav-item px-3">
+            <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
+                <span class="oi oi-home" aria-hidden="true"></span> Home
+            </NavLink>
+        </li>
+        <li class="nav-item px-3">
+            <NavLink class="nav-link" href="counter">
+                <span class="oi oi-plus" aria-hidden="true"></span> Counter
+            </NavLink>
+        </li>
+        <li class="nav-item px-3">
+            <NavLink class="nav-link" href="fetchdata">
+                <span class="oi oi-list-rich" aria-hidden="true"></span> Fetch data
+            </NavLink>
+        </li>
+        <li class="nav-item px-3">
+           <NavLink class="nav-link" href="Tesla">
+                <span class="oi oi-target" aria-hidden="true"></span> Tesla
+           </NavLink>
+        </li>
+        <li class="nav-item px-3">
+           <NavLink class="nav-link" href="Apple">
+                <span class="oi oi-target" aria-hidden="true"></span> Apple
+           </NavLink>
+        </li>
+    </ul>
+</div>
+
+@code {
+    private bool collapseNavMenu = true;
+
+    private string NavMenuCssClass => collapseNavMenu ? "collapse" : null;
+
+    private void ToggleNavMenu()
+    {
+        collapseNavMenu = !collapseNavMenu;
+    }
+}
+
+Asset List
+
+   Index=0   ScriptAsset
+   HtmlAsset=[    <script src="assets/js/jquery.min.js"></script>]   RawAssset=[assets\js]
+   Index=7   HostAsset
+   HtmlAsset=[    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">]   RawAssset=[assets/bootstrap]
+   Index=8   HostAsset
+   HtmlAsset=[    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">]   RawAssset=[assets/fonts]
+   Index=9   HostAsset
+   HtmlAsset=[    <link rel="stylesheet" href="assets/css/styles.min.css">]   RawAssset=[assets/css]
+   Index=34   ImageAsset
+   HtmlAsset=[assets/img/iphone_x_largetall.jpg]   RawAssset=[iphone_x_largetall.jpg]
+   Index=38   ImageAsset
+   HtmlAsset=[assets/img/ipad_largetall.jpg]   RawAssset=[ipad_largetall.jpg]
+   Index=42   ImageAsset
+   HtmlAsset=[assets/img/macbook_pro_performance_largetall.png]   RawAssset=[macbook_pro_performance_largetall.png]
+   Index=60   ImageAsset
+   HtmlAsset=[assets/img/iphone_8_large.jpg]   RawAssset=[iphone_8_large.jpg]
+   Index=72   ImageAsset
+   HtmlAsset=[assets/img/airpods_large.jpg]   RawAssset=[airpods_large.jpg]
+   Index=79   ImageAsset
+   HtmlAsset=[assets/img/watch_series_3_large.jpg]   RawAssset=[watch_series_3_large.jpg]
+   Index=133   ImageAsset
+   HtmlAsset=[assets/img/united-states-flag.png]   RawAssset=[united-states-flag.png]
+
+Will copy Assets Source=C:\SRC\VSBootstrapImporter\Demo\Work\HTML\AppleHtml\assets
+                 Dest  =C:\SRC\VSBootstrapImporter\Demo\Work\BootstrapDemo\BlazorServer\wwwroot\Apple\assets
+
